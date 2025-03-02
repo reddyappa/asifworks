@@ -147,12 +147,20 @@ blockquote {
 }
 .textService{
     font-size: 16px;
-    line-height: 35px;
 }
 .facepadding{
 padding: 40px 0px;
 }
-
+.applservice p{
+    color:#fff
+}
+.textService a{
+    color:#ff8080;
+    text-decoration: underline;
+}
+.about-img img{
+    width:100%;
+}
 .service-single.moduleLetf.aboutSingle {
     background: #f8f8f8;
     padding-bottom: 60px;
