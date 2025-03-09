@@ -148,6 +148,57 @@ blockquote {
 .textService{
     font-size: 16px;
 }
+.box-content {
+    padding-top: 0;
+    color: #fff;
+  }
+  .box-content .first-box {
+    background: #42b3e5;
+    width: 100%;
+    float: left;
+    padding: 20px;
+  }
+  .box-content .icon {
+    width: 20%;
+    float: left;
+    padding: 6px 0;
+    border-right: 1px dotted #fff;
+  }
+  .box-content .content {
+    width: 80%;
+    float: left;
+    padding-left: 5%;
+  }
+  .box-content .content p {
+    color: #fff;
+    margin-bottom: 20px;
+  }
+  .box-content .second-box {
+    background: #1dd2c8;
+    width: 100%;
+    float: left;
+    padding: 20px;
+  }
+  .box-content .third-box {
+    background: #4baabc;
+    width: 100%;
+    float: left;
+    padding: 20px;
+  }
+  .no-padding {
+    padding: 0 !important;
+  }
+  .title-bottom-line::after {
+    content: '';
+    width: 80px;
+    height: 1px;
+    float: left;
+    background: #1dd2c8;
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+  }
+  
 .facepadding{
 padding: 40px 0px;
 }
